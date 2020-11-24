@@ -19,31 +19,28 @@ const Card = ({ project,
     );
   };
   return (
- <div>
-     <a href={`${project.link}`} target='_black' className=" mb-3 text-decoration-none text-dark">
-    
-
-    <div className="face front border">
-
-
-      <div className="view overlay">
-
-              <ShowImage className="card-img-top" item={project} url='project' />
+ <div className="containers">
      
-      </div>
-
-
-      <div className="card-body text-center">
-
-      
-        <h4 className=""> {project.name}</h4>
-        <p className="card-text ">{project.description.substring(0, 100)}</p>
-      
-      </div>
-
-    </div>
-    
-    </a>
+    <div className="post-wrap"> 
+            <div className="post-card">
+                <div className="post-front">
+                    <div className="post-img">
+                    <ShowImage className="card-img-top" item={project} url='project' />
+                    </div>
+                    
+                   
+                </div>
+                <div className="post-back">
+                    <div className="post-except">
+                        <h2>{project.name}</h2>
+                        <p className='mb-4'>
+                        {project.description.substring(0, 300)}
+                        </p>
+                    <a className=' text-decoration-none' href={`${project.link}`} target='_black'>View Website</a>
+                    </div>
+                </div>
+            </div>
+        </div>
  </div>
 
   );

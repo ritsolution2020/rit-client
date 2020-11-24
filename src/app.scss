@@ -25,6 +25,10 @@
     color: #fff;
     text-decoration: none;
     font-size: 1.1rem ;
+    &:hover{
+      color: #1b972d;
+      text-decoration: none;
+    }
   }
   
    
@@ -109,21 +113,21 @@
     background-size: 55%;
     background-color: #fdfdfd;
     overflow: hidden;
-    padding: 100px 0;
+    padding: 10px 0;
     /* margin-top: .1rem; */
   }
   
   .inner-container{
-    width: 55%;
+    width: 65%;
     float: right;
     background-color: #fdfdfd;
-    padding: 150px;
+    padding: 2px;
     box-shadow: .01rem 1rem 1rem 1rem rgba(0, 0, 0, .1);
   
   }
   
   .inner-container h1{
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     font-size: 30px;
     font-weight: 900;
   }
@@ -131,9 +135,8 @@
   .text{
     font-size: 13px;
     color: #545454;
-    line-height: 30px;
+    line-height: 23px;
     text-align: justify;
-    margin-bottom: 40px;
   }
   /*===== About Section =====*/
   
@@ -233,7 +236,7 @@
 	margin-bottom: 26px;
     width: 70px;
     height: 70px;
-    background-color: #ff4500;
+    background-color: #ff5a6e;
     border-radius: 5px;
     line-height: 70px;
     text-align: center;
@@ -260,7 +263,7 @@
 
 .section-services .single-service .description {
     margin-bottom: 20px;
-    font-size: 14px;
+    font-size: 13px;
     transition: color .3s;
 }
 
@@ -391,8 +394,118 @@
   }
     
     
-  /*============= Projects section =============*/
+.post-wrap {
+  min-width: 280px;
+  max-width: 280px;
+  height: 320px;
+  perspective: 1000px;
+  flex: 1;
+  margin:  10px;
+}
+.post-card {
+  position: relative; /* Required to absolutely position the faces */
+  width: 280px;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+padding: 1rem;
 
+}
+.post-front, .post-back {
+  position: absolute;
+  width: 99%;
+  height: 100%;
+  background-color: white;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+
+
+}
+.post-front,  .post-except {
+  width: 280px!important;
+  height: 300px;
+  margin: 0 auto;
+
+}
+.post-back {
+  transform: rotateY(180deg);
+  
+}
+.post-wrap:hover .post-card{
+  transform: rotateY(180deg);
+  margin-left: 2rem;
+}
+.post-img {
+  width: 280px;
+  height: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: 0 auto;
+ img{
+  width: 280px;
+   height: 300px;
+ }
+}
+
+.post-info span {
+  font-size: 0.8rem;
+  color: #808080;
+}
+.post-info h2{
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-top: 5px;
+}
+.post-back {
+  background-color: #fff;
+
+
+}
+.post-back h2{
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-top: 5px;
+  text-align: center;
+}
+.post-back p {
+  margin: 5px auto;
+  line-height: 1.6;
+  padding: 1rem;
+
+  
+}
+.post-back a{
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #ff5a6e;
+  padding: 10px 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.8em;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 1rem;
+  &:hover{
+    
+    color: #fff;
+    background-color: #cc4353;
+  }
+}
+.containers {
+  max-width: 1250px;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Required to position the posts one below the other on smaller devices */
+}
+  /*============= Projects section =============*/
+.chklist{
+  display: inline;
+  margin: 0 1.1rem;
+}
   /*============= Team section =============*/
   
   section {
@@ -788,7 +901,7 @@ $default_timer: 987ms;
         position: fixed;
         width: 50px;
         height: 50px;
-        background: #9b0e1f;
+        background: #ff5a6e;
         bottom: 40px;
         right: 40px;
         z-index: 110;
@@ -797,9 +910,21 @@ $default_timer: 987ms;
         line-height: 50px;
         color: white;
         font-size: 22px;
-        :hover{
+        &:hover{
           color: white;
+         
         }
+        i{
+
+        
+        &:hover{
+          color: white;
+          transform: scale(1.3);
+        }
+      }
+      
+      
+
       }
         
   /*============= Ends of buttons =============*/
@@ -933,21 +1058,22 @@ textarea.input {
   transform: translateY(0);
 }
 
-.btn {
+.btttn {
   padding: 0.6rem 1.3rem;
-  background-color: #fff;
+  background-color: #ff5a6e;
   border: 2px solid #fafafa;
   font-size: 0.95rem;
-  color: #1abc9c;
+  color: #fafafa;
   line-height: 1;
   border-radius: 25px;
   outline: none;
   cursor: pointer;
   transition: 0.3s;
   margin: 0;
+  font-weight: 700;
 }
 
-.btn:hover {
+.btttn:hover {
   background-color: transparent;
   color: #fff;
 }

@@ -8,12 +8,17 @@ function About() {
         <div className="inner-container" >
             <h1 className="text animated fadeInRight"  style={{animationDelay: '1s'}}>About Us</h1>
             <p className="text animated zoomIn"  style={{animationDelay: '2s'}}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit ducimus, enim inventore earum, eligendi nostrum pariatur necessitatibus eius dicta a voluptates sit deleniti autem error eos totam nisi neque voluptates sit deleniti autem error eos totam nisi neque.
-            </p>
-            <p className="text animated zoomIn"  style={{animationDelay: '2s'}}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit ducimus, enim inventore earum, eligendi nostrum pariatur necessitatibus eius dicta a voluptates sit deleniti autem error eos totam nisi neque voluptates sit deleniti autem error eos totam nisi neque.
-            </p>
-        
+            RIT company is a leading professional IT company legally working in Rwanda with the permission from RWANDA DEVELOPMENT BOARD with TIN NO:111969628 we provide different IT services including developing dynamic and responsible websites, mobile apps development, website Maintenance, data management, training to IT students to empower them knowledge, and IT services.
+          
+            <br />
+            <br />
+Our <strong>Mission</strong> is to provide both strategic IT vision and Business solutions, so they may be able to meet their goals, deliver results, and enhance the company’s position.
+Provide professional development and training in the use of technology in order to increase the productivity, efficiency, and communication expertise of our customers.
+<br />
+<br />             
+Our <strong>Vision</strong> is to enhance the productivity and service quality to the society in which we live. We achieve this through the development and provision of information technology solutions, supported by quality advice and personalized service.”
+</p>
+<strong className='ml-5 '>We are a professional, trusted, and creative company.</strong>
         </div>
     </div>
     </div>

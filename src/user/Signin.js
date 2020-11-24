@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Redirect } from "react-router-dom";
-// import Layout from "../core/Layout";
 import Menu from "../core/Menu";
 import Spinner from 'react-bootstrap/Spinner';
 

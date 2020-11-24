@@ -2,8 +2,7 @@ import React, { useState, useEffect } from "react";
 import Card from "./Card";
 import { getCategories, getFilteredProjects } from "./apiCore";
 import Checkbox from "./Checkbox";
-import { Link } from 'react-router-dom';
-import { prices } from "./fixedPrices";
+
 
 const Shop = () => {
     const [myFilters, setMyFilters] = useState({
@@ -57,7 +56,7 @@ const Shop = () => {
         return (
             size > 0 &&
             size >= limit && (
-                <button onClick={loadMore} className="btn btn-warning mb-5">
+                <button onClick={loadMore} className="btn btn-danger mb-5">
                     Load more
                 </button>
             )
@@ -74,25 +73,12 @@ const Shop = () => {
         const newFilters = { ...myFilters };
         newFilters.filters[filterBy] = filters;
 
-        if (filterBy === "price") {
-            let priceValues = handlePrice(filters);
-            newFilters.filters[filterBy] = priceValues;
-        }
+    
         loadFilteredResults(myFilters.filters);
         setMyFilters(newFilters);
     };
 
-    const handlePrice = value => {
-        const data = prices;
-        let array = [];
-
-        for (let key in data) {
-            if (data[key]._id === parseInt(value)) {
-                array = data[key].array;
-            }
-        }
-        return array;
-    };
+   
 
     return (
         <div>
@@ -106,7 +92,7 @@ const Shop = () => {
             <div className="row container ">
                 <div className=" col-lg-12 col-md-12 col-sm-12 mb-3 m-auto ">
                     <h4 className="mb-4 mt-5 text-center">Categories</h4>
-                    <ul className='d-flex justify-content-around'>
+                    <ul className='text-center'>
                         <Checkbox
                             categories={categories}
                             handleFilters={filters =>

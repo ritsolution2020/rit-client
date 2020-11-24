@@ -11,7 +11,7 @@ function Services() {
 			<div className="col-md-10 col-lg-8">
 				<div className="header-section  site-heading">
                 <h2>Exclusive <span>Services</span></h2>
-					<h4 className="description">Lorem ipsum dolor sit amet, urna tristique finibus iaculis. Morbi facilisis consectetur adipiscing elit. Curabitur malesuada fermentum purus, eu volutpat nisi laoreet id. Phasellus fringilla accumsan metus, at tempor est hendrerit et.</h4>
+					<h4 className="description ">Lorem ipsum dolor sit amet, urna tristique finibus iaculis. Morbi facilisis consectetur adipiscing elit. Curabitur malesuada fermentum purus, eu volutpat nisi laoreet id. Phasellus fringilla accumsan metus, at tempor est hendrerit et.</h4>
 				</div>
 			</div>
 		</div>

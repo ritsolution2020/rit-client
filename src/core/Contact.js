@@ -4,11 +4,12 @@ function Contact() {
     return (
         
 <div id='contact' className='container text-center'>
-<div class="site-heading">
+	<div className="col-md-10 col-lg-8 m-auto">
+<div class="site-heading mb-0">
                 <h2> <span>Contact</span> Us</h2>
-					<h4 class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur malesuada fermentum purus, eu volutpat nisi laoreet id. Phasellus fringilla accumsan metus, at tempor est hendrerit et.</h4>
+					<h4 class="description h6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur malesuada fermentum purus, eu volutpat nisi laoreet id. Phasellus fringilla accumsan metus, at tempor est hendrerit et.</h4>
 				</div>
-
+				</div>
         <div id="container">
             
 		<span className="big-circle"></span>
@@ -77,7 +78,7 @@ function Contact() {
 				<textarea name="message" placeholder="Message" className="input"></textarea>
 			
 			  </div>
-			  <input type="submit" value="Send"  className="btn" />
+			  <input type="submit" value="Send"  className="btttn border" />
 			</form>
 		  </div>
 		</div>

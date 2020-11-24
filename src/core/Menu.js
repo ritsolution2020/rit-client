@@ -13,7 +13,16 @@ const isActive = (history, path) => {
     }
 };
 
-const Menu = ({ history }) => (
+const Menu = ({ history }) =>{ 
+    const scrollToTop = () => {
+        // window.location.reload(false);
+        window.scrollTo({top:0, behavior: 'smooth'});
+       
+      } 
+    return(
+
+ 
+    
      <div >
   <div className="top-bar">
 	   <div className="container">
@@ -115,8 +124,9 @@ const Menu = ({ history }) => (
             </div>
         </nav>
 
-
+        <Link className="gotopbtn" onClick={scrollToTop()} > 
+  <i className="fas fa-arrow-up"></i> </Link>
     </div>
-);
+)};
 
 export default withRouter(Menu);

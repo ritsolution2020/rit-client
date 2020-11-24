@@ -5,18 +5,12 @@ import Services from './Services';
 import Project from './Project';
 import Team from './Team';
 import Contact from './Contact';
-import { getProjects } from './apiCore';
-import { Link } from 'react-router-dom';
 import carsl1 from "../img/carousel/3.jpg";
 import carsl2 from "../img/carousel/2.jpg";
 import carsl3 from "../img/carousel/1.jpg";
 
 const Home = () => {
-  const scrollToTop = () => {
-    // window.location.reload(false);
-    window.scrollTo({top:100, behavior: 'smooth'});
-   
-  } 
+
   
   return (
     <div>
@@ -71,8 +65,7 @@ const Home = () => {
   <Project />
   <Team />
   <Contact />
-  <Link className="gotopbtn" onClick={scrollToTop()} > 
-  <i className="fas fa-arrow-up"></i> </Link>
+ 
  
     </div>
   );
