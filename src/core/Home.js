@@ -25,9 +25,9 @@ const Home = () => {
 			<div className="carousel-item active ">
 				<img src={carsl3} alt="" className="w-100 overlayText" />
 				<div className="carousel-caption">
-                        <h2 className="animated bounceInRight textFont" style={{animationDelay: '1s'}}>We Are <span>Creative</span></h2>
-                        <h3 className="animated bounceInLeft textFont" style={{animationDelay: '2s'}}>Web Design and Development Agency</h3>
-                        <p className="animated bounceInRight " style={{animationDelay: '3s'}}><a href="#" className="btn btnPrimary">Contact us</a></p>
+                        <h2 className="animated bounceInRight textFont" style={{animationDelay: '1s'}}>We Are <span>Creative,</span></h2>
+                        <h3 className="animated bounceInLeft textFont" style={{animationDelay: '2s'}}>a Professional, Trusted, And Creative Company.</h3>
+                        <p className="animated bounceInRight " style={{animationDelay: '3s'}}><a href="#contact" className="btn btnPrimary">Contact us</a></p>
                     </div>
 			
 			</div>
@@ -44,7 +44,7 @@ const Home = () => {
 				<img src={carsl1} alt="" className="w-100 overlayText" />
 				<div className="carousel-caption">
                         <h2 className="animated zoomIn  textFont" style={{animationDelay: '1s'}}>We Are <span>Diligent</span></h2>
-                        <h3 className="animated fadeInLeft textFont" style={{animationDelay: '2s'}}>Web Design and Development Agency</h3>
+                        <h3 className="animated fadeInLeft textFont" style={{animationDelay: '2s'}}>We Don't Document Problem We Fix It</h3>
                         <p className="animated zoomIn " style={{animationDelay: '3s'}}><a href="#" className="btn btnPrimary">Contact us</a></p>
                     </div>
 			</div>

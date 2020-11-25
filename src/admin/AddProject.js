@@ -27,15 +27,10 @@ const AddProject = () => {
     name,
     link,
     description,
-    price,
     categories,
-    category,
-    shipping,
-    quantity,
     loading,
     error,
     createdProject,
-    redirectToProfile,
     formData
   } = values;
 
@@ -139,7 +134,7 @@ const AddProject = () => {
       </div>
       <div className="text-center mt-4 mb-3">
 
-        <button className="btn btn-outline-info ">Create Project</button>
+        <button className="btn btn-outline-danger ">Create Project</button>
       </div>
     </form>
 

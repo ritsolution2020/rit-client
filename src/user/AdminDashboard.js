@@ -9,26 +9,20 @@ const AdminDashboard = () => {
 
     const adminLinks = () => {
         return (
-            <div className="card border-0">
+            <div className="container">
+                 <div className="middle   ">
               
-                <ul className="list-group m-auto">
-                    <li className="list-group-item">
-                        <Link className="nav-link text-danger" to="/create/category">
+                  <Link className="btns btn3 text-decoration-none" to="/create/category">
                             Create Category
                         </Link>
-                    </li>
-                    <li className="list-group-item">
-                        <Link className="nav-link text-danger" to="/create/project">
+                        <Link className="btns btn2 text-decoration-none" to="/create/project">
                             Create Project
                         </Link>
-                    </li>
-               
-                    <li className="list-group-item">
-                        <Link className="nav-link text-danger" to="/admin/projects">
+                        <Link className="btns btn1 text-decoration-none" to="/admin/projects">
                             Manage Projects
                         </Link>
-                    </li>
-                </ul>
+               
+                  </div>
             </div>
         );
     };
@@ -50,15 +44,15 @@ const AdminDashboard = () => {
 
     return (
         <div>
+        <div
+            className="container mt-5"
+            >
                <div class="button_cont"><a href='/' className="BackHome" >
             <i class="fas fa-angle-double-left"></i>   Back To Home </a>
                 
                 </div>
-        <div
-            className="container mt-5"
-            >
-            <div className="row">
-                <div className="col-md-6 mb-4">{adminLinks()}</div>
+            <div className="">
+                <div className="">{adminLinks()}</div>
           
             </div>
             </div>

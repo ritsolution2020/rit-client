@@ -11,7 +11,7 @@ function Services() {
 			<div className="col-md-10 col-lg-8">
 				<div className="header-section  site-heading">
                 <h2>Exclusive <span>Services</span></h2>
-					<h4 className="description ">Lorem ipsum dolor sit amet, urna tristique finibus iaculis. Morbi facilisis consectetur adipiscing elit. Curabitur malesuada fermentum purus, eu volutpat nisi laoreet id. Phasellus fringilla accumsan metus, at tempor est hendrerit et.</h4>
+					<h4 className="description ">Success does not happen by itself, it is created by the right people</h4>
 				</div>
 			</div>
 		</div>
@@ -24,7 +24,7 @@ function Services() {
 							<i className="fa fa-code"></i>
 						</span>
 						<h3 className="title">Web Development</h3>
-						<p className="description">Mauris volutpat urna tristique finibus iaculis. Morbi facilisis, urna tristique finibus iaculis. Morbi facilisis justo eu vulputate elementum, est augue tincidunt ante, sed efficitur leo ligula vel velit.</p>
+						<p className="description">We build, create, and maintain responsible websites to make them look great, work fast, and perform well with a seamless user experience.</p>
 						
 					</div>
 					<span className="circle-before"></span>
@@ -37,8 +37,11 @@ function Services() {
 						<span className="icon">
 							<i className="fa fa-cogs"></i>
 						</span>
-						<h3 className="title">Web Design</h3>
-						<p className="description">Mauris volutpat urna tristique finibus iaculis. Morbi facilisis, justo eu vulputate elementum, urna tristique finibus iaculis. Morbi facilisis est augue tincidunt ante, sed efficitur leo ligula vel velit.</p>
+						<h3 className="title">UI/UX Design</h3>
+						<p className="description">
+							
+						High Quality & Bespoke Websites that Showcase your Business for better conversions.
+							</p>
 						
 					</div>
 					<span className="circle-before"></span>
