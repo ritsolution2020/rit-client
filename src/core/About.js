@@ -18,7 +18,7 @@ Provide professional development and training in the use of technology in order 
 <br />             
 Our <strong>Vision</strong> is to enhance the productivity and service quality to the society in which we live. We achieve this through the development and provision of information technology solutions, supported by quality advice and personalized service.”
 </p>
-<strong className='ml-5 '>We are a professional, trusted, and creative company.</strong>
+<span className='ml-5 spanW'>We are a professional, trusted, and creative company.</span>
         </div>
     </div>
     </div>

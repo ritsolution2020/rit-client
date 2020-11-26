@@ -1002,6 +1002,10 @@ $default_timer: 987ms;
   height: 380%;
 }
 
+.spanW{
+  font-size: .8rem;
+  font-weight: 700;
+}
         
   /*============= Ends of buttons =============*/
 
@@ -1023,6 +1027,7 @@ $default_timer: 987ms;
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 1;
 }
 
 .form {
@@ -1642,6 +1647,9 @@ textarea.input {
       .container-cards{
         display: flex;
         flex-direction: column;
+      }
+      .gotopbtn{
+        z-index: 12;
       }
   
   }
