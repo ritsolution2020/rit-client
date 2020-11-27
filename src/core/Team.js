@@ -30,7 +30,7 @@ function Team() {
 									<span className="message">
 										<a href="#"><i className="fas fa-envelope-open"></i></a>
 									</span>
-									<h5>RUKUNdO Olivier </h5>
+									<h5>RUKUNDO Olivier </h5>
 									<span>CO-FOUNDER/CEO</span>
 								</div>
 							</div>
