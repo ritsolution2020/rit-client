@@ -84,8 +84,8 @@ const Shop = () => {
         <div>
          
            
-            <div class="button_cont"><a href='/' className="BackHome" >
-            <i class="fas fa-angle-double-left"></i>   Back To Home </a>
+            <div className="button_cont"><a href='/' className="BackHome" >
+            <i className="fas fa-angle-double-left"></i>   Back To Home </a>
                 
                 </div>
            

@@ -7,7 +7,7 @@ function Contact() {
 	<div className="col-md-10 col-lg-8 m-auto">
 <div class="site-heading mb-0">
                 <h2> <span>Contact</span> Us</h2>
-					<h4 class="description h6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur malesuada fermentum purus, eu volutpat nisi laoreet id. Phasellus fringilla accumsan metus, at tempor est hendrerit et.</h4>
+					
 				</div>
 				</div>
         <div id="container">
@@ -18,18 +18,17 @@ function Contact() {
 		  <div className="contact-info">
 			<h3 className="title">Let's get in touch</h3>
 			<p className="text">
-			  Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-			  dolorum adipisci recusandae praesentium dicta!
+			To reach us please feel free to contact us on the address bellow:
 			</p>
   
 			<div className="info">
 			  <div className="information">
 				<img src="img/location.png" className="icon" alt="" />
-				<p>92 Kigali, NY 11 553</p>
+				<p>Muhima/Kigali</p>
 			  </div>
 			  <div className="information">
 				<img src="img/email.png" className="icon" alt="" />
-				<p>lorem@ipsum.com</p>
+				<p>ritrwaanda@gmail.com</p>
 			  </div>
 			  <div className="information">
 				<img src="img/phone.png" className="icon" alt="" />
@@ -41,15 +40,15 @@ function Contact() {
 			  <p>Connect with us :</p>
 			  <div className="social-icons">
 				<a href="#">
-				  <i className="fab fa-facebook-f"></i>
+				  <i className="fab fa-facebook-f" target='_blank'></i>
 				</a>
 				<a href="#">
-				  <i className="fab fa-twitter"></i>
+				  <i className="fab fa-twitter" target='_blank'></i>
 				</a>
-				<a href="#">
+				<a href="https://www.instagram.com/rit_rw/" target='_blank'>
 				  <i className="fab fa-instagram"></i>
 				</a>
-				<a href="#">
+				<a href="#" target='_blank'>
 				  <i className="fab fa-linkedin-in"></i>
 				</a>
 			  </div>
@@ -60,7 +59,7 @@ function Contact() {
 			<span className="circle one"></span>
 			<span className="circle two"></span>
   
-			<form action="index.html" autocomplete="off">
+			<form method="POST" action="https://formspree.io/ritrwaanda@gmail.com" role="form" autocomplete="off">
 			  <h3 className="title">Contact us</h3>
 			  <div className="input-container">
 				<input type="text" name="name" className="input" placeholder="Name" required />
@@ -71,7 +70,7 @@ function Contact() {
 			
 			  </div>
 			  <div className="input-container">
-				<input type="tel" name="phone" className="input" placeholder="Phone" required />
+				<input type="tel" type="subject" className="input" placeholder="Subject" required />
 				
 			  </div>
 			  <div className="input-container textarea">

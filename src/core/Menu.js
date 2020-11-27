@@ -37,11 +37,11 @@ const Menu = ({ history }) =>{
    </div>
    <nav className="navbar bg-light navbar-light navbar-expand-lg">
    <div className="container">
-			<a href="index.html" className="navbar-brand">
+			<a href="/" className="navbar-brand mb-1">
 				
 				<img src={logo} alt="Logo" title="Logo" />
 			</a>
-
+                <span className='navTitle'>RIT Company</span>
 			<button className="navbar-toggler" type="button" data-toggle="collapse"
 			 data-target="#navbarResponsive">
 				<span className="navbar-toggler-icon "></span>

@@ -52,7 +52,7 @@ function Project() {
 	<div className="col-md-10 col-lg-8 m-auto">
     <div className=" site-headings pt-5">
                 <h2>Our <span>Projects</span></h2>
-					<h4 className="description h6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur malesuada fermentum purus, eu volutpat nisi laoreet id. Phasellus fringilla accumsan metus, at tempor est hendrerit et.</h4>
+					<h4 className="description h6">The good news about computers is that they do what you tell them to do the bad news is that they do what you tell them to do.</h4>
 				</div>
 				</div>
 			<div className="container mt-0">

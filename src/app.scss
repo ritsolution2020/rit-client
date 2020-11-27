@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+@font-face{
+  font-family: 'SEGA LOGO FONT';
+  font-size: normal;
+  font-weight: normal;
+  src: local('SEGA LOGO FONT'), url('./SEGA.woff') format(('woff'))
+}
 *{
     margin: 0;
     padding: 0;
@@ -35,9 +42,17 @@
   
   
   /*============= NAVIGATION =============*/
-  .navbar-brand img{
-    height: 3rem;
+  .navbar-brand {
+ 
+    
+    img{
+    height: 2rem;
   }
+}
+
+.navTitle{
+  display: none;
+}
   .navbar{
     font-size: 1rem;
     font-weight: 600;
@@ -191,6 +206,21 @@
 .section-services .header-section .description {
 	font-size: 14px;
     color: #282828;
+ 
+}
+.content{
+  p{
+    background: #e9e9eb;
+    padding:10px;
+    border-radius: 20px;
+    color: #383838;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+    font-family: 'Poppins';
+    font-size: 1rem;
+    text-align: center;
+    
+    
+  }
 }
 
 .section-services .single-service {
@@ -268,7 +298,7 @@
 }
 
 .section-services .single-service:hover .description {
-	color: #fff;
+	color: rgb(59, 59, 59);
 }
 
 .section-services .single-service a {
@@ -281,7 +311,7 @@
 }
 
 .section-services .single-service:hover a {
-	color: #fff;
+	color: rgb(233, 231, 231);
 }
 
 .section-services .single-service a:after {
@@ -292,7 +322,8 @@
 	right: 0;
 	height: 1px;
 	background-color: #ff5a6e;
-	transition: background-color .3s;
+  transition: background-color .3s;
+  
 }
 
 .section-services .single-service:hover a:after {
@@ -613,9 +644,7 @@ padding: 1rem;
     width: 100%;
   }
   
-  .team-area .team-items .item:hover .thumb::after {
-    opacity: 0.7;
-  }
+  
   
   .team-area .item .thumb .overlay {
     top: -100%;
@@ -660,9 +689,7 @@ padding: 1rem;
     transition: all 0.35s ease-in-out;
   }
   
-  .team-area .item:hover .thumb img {
-    opacity: .6;
-  }
+
   
   .team-area .item .thumb .social li {
     display: inline-block;
@@ -886,10 +913,12 @@ $default_timer: 987ms;
     }
     .BackHome:hover {
       background: #434343;
+      
+    color: #bdbaba !important;
       letter-spacing: 1px;
       -webkit-box-shadow: 0px 5px 40px 10px rgba(0,0,0,0.57);
       -moz-box-shadow: 0px 5px 40px 10px rgba(0,0,0,0.57);
-      box-shadow: 5px 40px 10px rgba(0,0,0,0.57);
+      // box-shadow: 5px 40px 10px rgba(0,0,0,0.57); 
       transition: all 0.4s ease 0s;
  
         text-decoration: none;
@@ -1626,6 +1655,17 @@ textarea.input {
   }
   
   @media screen and (max-width: 767.98px) {
+    .navbar-brand{
+      img{
+        margin-top: 0;
+      height: 2rem;
+    }
+    }
+    
+  .navTitle{
+    display: block;
+    font-family: 'SEGA LOGO FONT';
+  }
     
     .textFont{
       font-size: 1.4rem!important;
@@ -1657,9 +1697,18 @@ textarea.input {
   @media screen and (max-width:600px){
     .about-section{
         padding: 0;
+            background: url('./img/pic.jpg') no-repeat left;
+            background-size: 100%;
     }
     .inner-container{
-        padding: 60px;
+        padding: 30px;
+        background: #e0d8d8;
+        .inner-padd{
+          border-radius: 20px;
+          border: .1px solid #ff5a6e;
+          padding: 20px;
+
+        }
     }
   }
   

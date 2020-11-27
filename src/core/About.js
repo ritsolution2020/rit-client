@@ -6,6 +6,8 @@ function About() {
             
         <div id="about" className="about-section">
         <div className="inner-container" >
+        <div className="inner-padd" >
+            
             <h1 className="text animated fadeInRight"  style={{animationDelay: '1s'}}>About Us</h1>
             <p className="text animated zoomIn"  style={{animationDelay: '2s'}}>
             RIT company is a leading professional IT company legally working in Rwanda with the permission from RWANDA DEVELOPMENT BOARD with TIN NO:111969628 we provide different IT services including developing dynamic and responsible websites, mobile apps development, website Maintenance, data management, training to IT students to empower them knowledge, and IT services.
@@ -18,8 +20,9 @@ Provide professional development and training in the use of technology in order 
 <br />             
 Our <strong>Vision</strong> is to enhance the productivity and service quality to the society in which we live. We achieve this through the development and provision of information technology solutions, supported by quality advice and personalized service.”
 </p>
-<span className='ml-5 spanW'>We are a professional, trusted, and creative company.</span>
+<span className='text-center spanW'>We are a professional, trusted, and creative company.</span>
         </div>
+    </div>
     </div>
     </div>
 

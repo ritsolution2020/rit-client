@@ -5,9 +5,9 @@ import Services from './Services';
 import Project from './Project';
 import Team from './Team';
 import Contact from './Contact';
-import carsl1 from "../img/carousel/3.jpg";
-import carsl2 from "../img/carousel/2.jpg";
-import carsl3 from "../img/carousel/1.jpg";
+import carsl1 from "../img/carousel/6.jpg";
+import carsl2 from "../img/carousel/5.jpg";
+import carsl3 from "../img/carousel/4.jpg";
 
 const Home = () => {
 
