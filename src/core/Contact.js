@@ -59,7 +59,7 @@ function Contact() {
 			<span className="circle one"></span>
 			<span className="circle two"></span>
   
-			<form method="POST" action="https://formspree.io/ritrwaanda@gmail.com" role="form" autocomplete="off">
+			<form   action="https://formspree.io/f/mbjpazye" method="POST" role="form" autocomplete="off">
 			  <h3 className="title">Contact us</h3>
 			  <div className="input-container">
 				<input type="text" name="name" className="input" placeholder="Name" required />

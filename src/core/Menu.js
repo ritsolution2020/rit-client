@@ -30,7 +30,7 @@ const Menu = ({ history }) =>{
                <p className='loca'><i className="fas fa-map-marker-alt"></i><span>Muhima/Kigali</span> </p>
 			   <p className='pho'>
 			
-				<a href="https://wa.me/message/" target="_blank" 
+				<a href="https://wa.me/+250788941714/" target="_blank" 
 				title="Contact Us"><i className="fab fa-whatsapp "></i><span className="pl-1">+250788941714</span></a>
 			</p>
 		   </div>

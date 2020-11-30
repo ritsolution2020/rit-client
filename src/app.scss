@@ -33,10 +33,11 @@
       justify-content: space-between;
      .loca{
        i{
-         color: #ff5a6e;
+         color: #cd486b;
        }
       span{
         margin-left: 5px;
+        font-size: .9rem;
       }
      }
      .pho{
@@ -45,7 +46,7 @@
         text-decoration: none;
         font-size: 1.1rem ;
         i{
-          color: #ff5a6e;
+          color: #cd486b;
         }
         &:hover{
           color: #1b972d;
@@ -90,7 +91,7 @@
   .nav-link.active,
   .nav-link:hover
   {
-    color: #b34949!important;
+    color: #cd486b!important;
   
   }
   
@@ -134,7 +135,7 @@
   
   }
   .btnPrimary{
-    background: #b34949!important;
+    background: #cd486b!important;
     color: #fff!important;
     :hover{
       scale: 1;
@@ -207,7 +208,7 @@
 	transform: translateX(-50%);
 	width: 50px;
 	height: 3px;
-	background-color: #ff5a6e;
+	background-color: #cd486b;
     border-radius: 3px;
 }
 
@@ -246,6 +247,7 @@
 .section-services .single-service {
     position: relative;
     margin-top: 30px;
+    height: 25rem;
     background-color: #fff;
     border-radius: 10px;
     padding: 40px 30px;
@@ -264,7 +266,7 @@
     transform: translate(40%, -40%);
     width: 150px;
     height: 150px;
-    background-color: #ff5a6e;
+    background-color: #cd486b;
     border: 6px solid #504f93;
     border-radius: 50%;
     opacity: 0.5;
@@ -286,7 +288,7 @@
 	margin-bottom: 26px;
     width: 70px;
     height: 70px;
-    background-color: #ff5a6e;
+    background-color: #cd486b;
     border-radius: 5px;
     line-height: 70px;
     text-align: center;
@@ -297,7 +299,7 @@
 
 .section-services .single-service:hover .icon {
 	background-color: #fff;
-	color: #ff5a6e;
+	color: #cd486b;
 }
 
 .section-services .single-service .title {
@@ -341,7 +343,7 @@
 	left: 0;
 	right: 0;
 	height: 1px;
-	background-color: #ff5a6e;
+	background-color: #cd486b;
   transition: background-color .3s;
   
 }
@@ -530,7 +532,7 @@ padding: 1rem;
 .post-back a{
   text-decoration: none;
   color: #ffffff;
-  background-color: #ff5a6e;
+  background-color: #cd486b;
   padding: 10px 14px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -589,10 +591,10 @@ padding: 1rem;
   }
   
   .site-heading h2 span {
-    color: #ff5a6e;
+    color: #cd486b;
   }
   .site-headings h2 span {
-    color: #ff5a6e;
+    color: #cd486b;
   }
   
   .site-heading h4 {
@@ -611,7 +613,7 @@ padding: 1rem;
   }
   
   .site-heading h4::before {
-    background: #ff5a6e none repeat scroll 0 0;
+    background: #cd486b none repeat scroll 0 0;
     bottom: 0;
     content: "";
     height: 2px;
@@ -621,7 +623,7 @@ padding: 1rem;
     width: 50px;
   }
   .site-headings h4::before {
-    background: #ff5a6e none repeat scroll 0 0;
+    background: #cd486b none repeat scroll 0 0;
     bottom: 0;
     content: "";
     height: 2px;
@@ -632,7 +634,7 @@ padding: 1rem;
   }
   
   .site-heading h2 span {
-    color: #ff5a6e;
+    color: #cd486b;
   }
   
   .site-heading {
@@ -764,7 +766,7 @@ padding: 1rem;
     -o-box-shadow: 0 0 10px #cccccc;
     box-shadow: 0 0 10px #cccccc;
     box-sizing: border-box;
-    color: #ff5a6e;
+    color: #cd486b;
     display: inline-block;
     font-size: 20px;
     height: 50px;
@@ -783,7 +785,7 @@ padding: 1rem;
   }
   
   .team-area .info span {
-    color: #ff5a6e;
+    color: #cd486b;
     font-family: "Poppins",sans-serif;
     font-weight: 600;
     text-transform: uppercase;
@@ -953,7 +955,7 @@ $default_timer: 987ms;
         position: fixed;
         width: 50px;
         height: 50px;
-        background: #ff5a6e;
+        background: #cd486b;
         bottom: 40px;
         right: 40px;
         z-index: 110;
@@ -1193,7 +1195,7 @@ textarea.input {
 
 .btttn {
   padding: 0.6rem 1.3rem;
-  background-color: #ff5a6e;
+  background-color: #cd486b;
   border: 2px solid #fafafa;
   font-size: 0.95rem;
   color: #fafafa;
@@ -1728,7 +1730,7 @@ textarea.input {
         background: #e0d8d8;
         .inner-padd{
           border-radius: 20px;
-          border: .1px solid #ff5a6e;
+          border: .1px solid #cd486b;
           padding: 20px;
 
         }
