@@ -34,7 +34,7 @@
      .loca{
        border: solid .1px #cd486b;
        border-radius: 1rem;
-       padding: 0rem 1rem .2rem;
+       padding: .001rem 1rem .2rem 1rem;
        i{
          color: #cd486b;
          font-size: .8rem;
@@ -1479,7 +1479,10 @@ textarea.input {
   }
  
 }
-
+.btn {
+  transition: all 2s ease-in-out;
+  &:hover { transform: scale(1.1); }
+}
 
 #form-s {
   width: 80%;

@@ -89,11 +89,11 @@ const Menu = ({ history }) =>{
                                 style={isActive(history, "/signin")}
                                 to="/signin"
                             >
-                                Login
+                                Enter
                         </Link>
                         </li>
 
-                        <li className="nav-item  m-auto ">
+                        {/* <li className="nav-item  m-auto ">
                             <Link
                                 className="nav-link"
                                 style={isActive(history, "/signup")}
@@ -101,7 +101,7 @@ const Menu = ({ history }) =>{
                             >
                                 Register
                         </Link>
-                        </li>
+                        </li> */}
                     </Fragment>
                 )}
 
