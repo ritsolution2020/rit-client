@@ -47,26 +47,24 @@
      .pho{
       border: solid .1px #cd486b;
       border-radius: 1rem;
-      padding: .2rem 1rem;
+      padding: 0rem 1rem .2rem;
       color: #f7f4f5;
+      transition: all .2s ease-in-out;
       a{
         color: #232323;
         text-decoration: none;
         font-size: 1.1rem ;
         i{
           color: #cd486b;
-          &:hover{
-            color: #f7f4f5;
-          }
+         
         }
         &:hover{
-          color: #f7f4f5;
+       
           text-decoration: none;
         }
         }
         &:hover{
-          background-color: #cd486b;
-          color: #f7f4f5;
+          transform: scale(1.1);
         }
      }
     }
