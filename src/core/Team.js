@@ -31,7 +31,7 @@ function Team() {
 										<a href="#"><i className="fas fa-envelope-open"></i></a>
 									</span>
 									<h5>RUKUNDO Olivier </h5>
-									<span>CO-FOUNDER/CEO</span>
+									<span>FOUNDER/CEO</span>
 								</div>
 							</div>
 						</div>

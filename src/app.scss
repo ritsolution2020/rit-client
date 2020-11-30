@@ -32,6 +32,9 @@
       display: flex;
       justify-content: space-between;
      .loca{
+       border: solid .1px #cd486b;
+       border-radius: 1rem;
+       padding: .2rem 1rem;
        i{
          color: #cd486b;
          font-size: .8rem;
@@ -42,17 +45,28 @@
       }
      }
      .pho{
+      border: solid .1px #cd486b;
+      border-radius: 1rem;
+      padding: .2rem 1rem;
+      color: #f7f4f5;
       a{
         color: #232323;
         text-decoration: none;
         font-size: 1.1rem ;
         i{
           color: #cd486b;
+          &:hover{
+            color: #f7f4f5;
+          }
         }
         &:hover{
-          color: #cd486b;
+          color: #f7f4f5;
           text-decoration: none;
         }
+        }
+        &:hover{
+          background-color: #cd486b;
+          color: #f7f4f5;
         }
      }
     }
@@ -779,16 +793,18 @@ padding: 1rem;
     font-weight: 500;
   }
   
-  .team-area .info h4 {
-    font-weight: 600;
+  .team-area .info h5 {
+    font-weight: 800;
     margin-bottom: 5px;
     text-transform: capitalize;
+    font-size: 1.3rem;
   }
   
   .team-area .info span {
     color: #cd486b;
-    font-family: "Poppins",sans-serif;
-    font-weight: 600;
+    font-family: "Open Sans",sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
     text-transform: uppercase;
   }
   

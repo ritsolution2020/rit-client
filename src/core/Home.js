@@ -26,7 +26,7 @@ const Home = () => {
 				<img src={carsl3} alt="" className="w-100 overlayText" />
 				<div className="carousel-caption">
                         <h2 className="animated bounceInRight textFont" style={{animationDelay: '1s'}}>We Are <span>Creative,</span></h2>
-                        <h3 className="animated bounceInLeft textFont" style={{animationDelay: '2s'}}>a Professional, Trusted, And Creative Company.</h3>
+                        <h3 className="animated bounceInLeft textFont" style={{animationDelay: '2s'}}>Professional, Trusted, And Creative Company.</h3>
                         <p className="animated bounceInRight " style={{animationDelay: '3s'}}><a href="#contact" className="btn btnPrimary">Contact us</a></p>
                     </div>
 			
