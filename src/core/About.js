@@ -10,7 +10,8 @@ function About() {
             
             <h1 className="text animated fadeInRight"  style={{animationDelay: '1s'}}>About Us</h1>
             <p className="text animated zoomIn"  style={{animationDelay: '2s'}}>
-            RIT company is a leading professional IT company legally working in Rwanda with the permission from RWANDA DEVELOPMENT BOARD with TIN NO:111969628 we provide different IT services including developing dynamic and responsible websites, mobile apps development, website Maintenance, data management, training to IT students to empower them knowledge, and IT services.
+            RIT company is a leading professional IT company legally 
+            working in Rwanda with the permission from RWANDA DEVELOPMENT BOARD, we provide different IT services including developing dynamic and responsible websites, mobile apps development, website Maintenance, data management, training to IT students to empower them knowledge, and IT services.
           
             <br />
             <br />

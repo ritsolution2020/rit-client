@@ -24,10 +24,11 @@ const Menu = ({ history }) =>{
  
     
      <div >
-  <div className="top-bar">
+  <div className="top-bar bg-light">
 	   <div className="container">
-		   <div className="col-md-12 col-sm-3 text-right">
-			   <p>
+		   <div className=" topContainer">
+               <p className='loca'><i className="fas fa-map-marker-alt"></i><span>Muhima/Kigali</span> </p>
+			   <p className='pho'>
 			
 				<a href="https://wa.me/message/" target="_blank" 
 				title="Contact Us"><i className="fab fa-whatsapp "></i><span className="pl-1">+250788941714</span></a>
@@ -36,7 +37,7 @@ const Menu = ({ history }) =>{
 	   </div>
    </div>
    <nav className="navbar bg-light navbar-light navbar-expand-lg">
-   <div className="container">
+   <div className="container"> 
 			<a href="/" className="navbar-brand mb-1">
 				
 				<img src={logo} alt="Logo" title="Logo" />

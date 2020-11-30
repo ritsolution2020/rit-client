@@ -24,19 +24,39 @@
   
   /*============= TOP BAR HEADER =============*/
   .top-bar{
-    background: #000;
-    height: 2.8rem;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: .1px solid #e6edf7;
+    // height: 2.8rem;
     padding: .5rem 0;
-  }
-  .top-bar a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.1rem ;
-    &:hover{
-      color: #1b972d;
-      text-decoration: none;
+    .topContainer{
+      display: flex;
+      justify-content: space-between;
+     .loca{
+       i{
+         color: #ff5a6e;
+       }
+      span{
+        margin-left: 5px;
+      }
+     }
+     .pho{
+      a{
+        color: #232323;
+        text-decoration: none;
+        font-size: 1.1rem ;
+        i{
+          color: #ff5a6e;
+        }
+        &:hover{
+          color: #1b972d;
+          text-decoration: none;
+        }
+        }
+     }
     }
+    
   }
+  
   
    
   
@@ -536,6 +556,9 @@ padding: 1rem;
 .chklist{
   display: inline;
   margin: 0 1.1rem;
+  label{
+    font-size: .8rem;
+  }
 }
   /*============= Team section =============*/
   
@@ -1380,7 +1403,7 @@ textarea.input {
     padding: 0;
   }
   .top-bar a{
-    color: #fff;
+    color: #000;
     text-decoration: none;
     font-size: 1.1rem ;
   }

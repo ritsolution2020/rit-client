@@ -91,7 +91,7 @@ const Shop = () => {
            
             <div className="row container ">
                 <div className=" col-lg-12 col-md-12 col-sm-12 mb-3 m-auto ">
-                    <h4 className="mb-4 mt-5 text-center">Categories</h4>
+                    <h5 className="mb-4 mt-5 text-center">Categories</h5>
                     <ul className='text-center'>
                         <Checkbox
                             categories={categories}
@@ -104,7 +104,7 @@ const Shop = () => {
                 </div>
 
                 <div className="col-lg-12 col-md-12 col-sm-12">
-                    <h2 className="mb-4 text-center">Projects</h2>
+                    <h5 className="mb-4 text-center">Projects</h5>
                     <div className="row">
                         {filteredResults.map((project, i) => (
                             <div className=" col-xs-12 col-sm-6 col-md-4 col-lg-4">

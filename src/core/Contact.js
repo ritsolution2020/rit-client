@@ -24,15 +24,15 @@ function Contact() {
 			<div className="info">
 			  <div className="information">
 				<img src="img/location.png" className="icon" alt="" />
-				<p>Muhima/Kigali</p>
+	<p><i className="fas fa-map-marker-alt"></i>{' '}Muhima/Kigali</p>
 			  </div>
 			  <div className="information">
 				<img src="img/email.png" className="icon" alt="" />
-				<p>ritrwaanda@gmail.com</p>
+	<p><i className="fas fa-envelope"></i>{' ' }ritrwaanda@gmail.com</p>
 			  </div>
 			  <div className="information">
 				<img src="img/phone.png" className="icon" alt="" />
-				<p>+250788941714</p>
+				<p><i className="fas fa-phone"></i>{' '}+250788941714</p>
 			  </div>
 			</div>
   
