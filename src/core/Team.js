@@ -28,7 +28,7 @@ function Team() {
 								</div>
 								<div className="info">
 									<span className="message">
-										<a href="#"><i className="fas fa-envelope-open"></i></a>
+										<a href="mailto:rukundo96@gmail.com"><i className="fas fa-envelope-open"></i></a>
 									</span>
 									<h5>RUKUNDO Olivier </h5>
 									<span>FOUNDER/CEO</span>
@@ -46,7 +46,7 @@ function Team() {
 								</div>
 								<div className="info">
 									<span className="message">
-										<a href="#"><i className="fas fa-envelope-open"></i></a>
+										<a href="mailto:rurangwa.luke@gmail.com"><i className="fas fa-envelope-open"></i></a>
 									</span>
 									<h5>Jean Luc RURANGWA</h5>
 									<span>Full-Stack Web Developer</span>

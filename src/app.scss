@@ -34,10 +34,10 @@
      .loca{
        border: solid .1px #cd486b;
        border-radius: 1rem;
-       padding: .001rem 1rem .2rem 1rem;
+       padding: .001rem .5rem .2rem .5rem;
        i{
          color: #cd486b;
-         font-size: .8rem;
+         font-size: .6rem;
        }
       span{
         margin-left: 5px;
@@ -1767,6 +1767,21 @@ textarea.input {
       max-width: 100%;
     }
   }
+  @media screen and (max-width:340px) {
+    .top-bar{
+  
+      .topContainer{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        margin: 0 auto;
+      
+          }
+         
+       }
+      }
+      
+   
   /*============ BOOTSTRAP BREAK POINTS:
   
   Extra small (xs) devices (portrait phones, less than 576px)
