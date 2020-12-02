@@ -42,7 +42,7 @@ function Contact() {
 				<a href="#">
 				  <i className="fab fa-facebook-f" target='_blank'></i>
 				</a>
-				<a href="#">
+				<a href="https://twitter.com/Rit_rwanda">
 				  <i className="fab fa-twitter" target='_blank'></i>
 				</a>
 				<a href="https://www.instagram.com/rit_rw/" target='_blank'>
